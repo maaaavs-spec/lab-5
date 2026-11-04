@@ -1,6 +1,9 @@
 Universidad Militar Nueva Granada
+
 Programa: Ingeniería Biomédica
+
 Asignatura: Instrumentación Biomédica y Biosensores
+}
 Práctica: Simulación y Monitoreo de Variables Cardiovasculares y Hemodinámicas 
 
 # **Integrantes**
@@ -15,7 +18,7 @@ Práctica: Simulación y Monitoreo de Variables Cardiovasculares y Hemodinámica
 
 𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤 𝙜𝙚𝙣𝙚𝙧𝙖𝙡: Evaluar el funcionamiento del monitor de signos vitales Mindray uMEC 100 mediante el simulador de parámetros hemodinámicos Pronk OxSim OX-1, verificando la precisión de las mediciones y la respuesta del sistema de alarmas ante diferentes condiciones fisiológicas y patológicas.
 
-
+ 
 𝙊𝙗𝙟𝙚𝙩𝙞𝙫𝙤𝙨 𝙀𝙨𝙥𝙚𝙘𝙞́𝙛𝙞𝙘𝙤𝙨:
 
 1. Identificar los modos de operación y las características funcionales del simulador Pronk OxSim OX-1 y del monitor Mindray uMEC 100.
@@ -36,6 +39,19 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 B 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
+bradicardia
+<img width="433" height="268" alt="Captura de pantalla 2026-11-03 172025" src="https://github.com/user-attachments/assets/18459811-b88c-4982-9d54-6ae2b43503ad" />
+
+hipoxia
+<img width="328" height="182" alt="Captura de pantalla 2026-11-03 172325" src="https://github.com/user-attachments/assets/0c3394b4-4a87-4d94-9bb1-41b1c7b43176" />
+
+low perfusion
+<img width="367" height="208" alt="Captura de pantalla 2026-11-03 172432" src="https://github.com/user-attachments/assets/81961924-54d6-4a49-9b77-5eb42a8f0d9c" />
+
+taquicardia
+<img width="299" height="182" alt="Captura de pantalla 2026-11-03 172531" src="https://github.com/user-attachments/assets/6f16d7d4-181f-4523-9b78-6d2e91e4b86a" />
+
+# Resultados
 
 # Tabla No.1 
 ## Tabla para verificación de alarmas en el uMEC 100
@@ -45,6 +61,7 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 | Hipoxia | SpO₂ mínimo: 90% | SpO₂: 85% | Sí | 1,34 |
 | Saturación elevada (Low Perfusion) | SpO₂ máximo: 97% | SpO₂: 99% | Sí | 0,12 |
 | Taquicardia | N/A | FC: 140 bpm | Sí | 0,12 |
+
 # Tabla No.2
 ## Tabla de erorres 
 | Prueba | Variable | Referencia | Medición | Error absoluto | Error porcentual |
@@ -59,6 +76,8 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 
 
 Link del excel donde se realizaron los calculos: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNkSMJio5d5kaGgueQ4mV61JLNXuEeFwvLhDiPfeMh-Vd3pFvXy43zz13pNNbI_m8fOeDSbzksNlZf/pubhtml
+
+
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
 
