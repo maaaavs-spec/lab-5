@@ -56,6 +56,8 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 | Low Perfusion | SpO₂ (%) | 99 | 100 | 1 | 1,01010 % |
 | Taquicardia | FC (bpm) | 140 | 140 | 0 | 0 % |
 | Taquicardia | SpO₂ (%) | 98 | 99 | 1 | 1,02040 % |
+
+
 Link del excel donde se realizaron los calculos: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNkSMJio5d5kaGgueQ4mV61JLNXuEeFwvLhDiPfeMh-Vd3pFvXy43zz13pNNbI_m8fOeDSbzksNlZf/pubhtml
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
