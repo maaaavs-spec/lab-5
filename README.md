@@ -38,15 +38,15 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 
 
 # Tabla No.1 
-# Tabla para verificación de alarmas en el uMEC 100
+## Tabla para verificación de alarmas en el uMEC 100
 | Prueba | Límite configurado |Valor simulado|¿Alarma activa?|Tiempo de respuesta|
 |Bradicardia|N/A:|FC: 40 bpm|Sí:|0,15|
 |Hipoxia|SpO₂ mínimo: 90%:|SpO₂: 85%|Sí:|1,34|
 |Saturación elevada|SpO₂ máximo: 97%:|SpO₂: 99%|Sí:|0,12|
 |Taquicardia|N/A:|FC: 140 bpm|Sí:|0,12|
 
-# Tabla de erorres 
 # Tabla No.2
+## Tabla de erorres 
 |Prueba|Variable|Referencia|Medición|Error absoluto|Error porcentual|
 |Bradicardia|FC|40|40|0|0|
 |Bradicardia|SpO₂|95|96|1|1,05263|
