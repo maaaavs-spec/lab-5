@@ -39,26 +39,23 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 
 # Tabla No.1 
 ## Tabla para verificación de alarmas en el uMEC 100
-|  Prueba  |  Límite configurado  | Valor simulado | ¿Alarma activa? | Tiempo de respuesta |
-
+| Prueba | Límite configurado | Valor simulado | ¿Alarma activa? | Tiempo de respuesta (s) |
+|:---|:---|:---|:---:|---:|
 | Bradicardia | N/A | FC: 40 bpm | Sí | 0,15 |
-
 | Hipoxia | SpO₂ mínimo: 90% | SpO₂: 85% | Sí | 1,34 |
-
-| Saturación elevada | SpO₂ máximo: 97% | SpO₂: 99% | Sí | 0,12 |
-
+| Saturación elevada (Low Perfusion) | SpO₂ máximo: 97% | SpO₂: 99% | Sí | 0,12 |
 | Taquicardia | N/A | FC: 140 bpm | Sí | 0,12 |
-
 # Tabla No.2
 ## Tabla de erorres 
-|Prueba|Variable|Referencia|Medición|Error absoluto|Error porcentual|
-|Bradicardia|FC|40|40|0|0|
-|Bradicardia|SpO₂|95|96|1|1,05263|
-|Hipoxia|FC|80|80|0|0|
-|Hipoxia|SpO₂|85|85|0|0|
-|Low perfusion|SpO₂|99|100|1|1,01010|
-|Taquicardia|FC|140|140|0|0|
-|Taquicardia|SpO₂|98|99|1|1,02040|
+| Prueba | Variable | Referencia | Medición | Error absoluto | Error porcentual |
+|:---|:---|---:|---:|---:|---:|
+| Bradicardia | FC (bpm) | 40 | 40 | 0 | 0 % |
+| Bradicardia | SpO₂ (%) | 95 | 96 | 1 | 1,05263 % |
+| Hipoxia | FC (bpm) | 80 | 80 | 0 | 0 % |
+| Hipoxia | SpO₂ (%) | 85 | 85 | 0 | 0 % |
+| Low Perfusion | SpO₂ (%) | 99 | 100 | 1 | 1,01010 % |
+| Taquicardia | FC (bpm) | 140 | 140 | 0 | 0 % |
+| Taquicardia | SpO₂ (%) | 98 | 99 | 1 | 1,02040 % |
 Link del excel donde se realizaron los calculos: https://docs.google.com/spreadsheets/d/e/2PACX-1vSNkSMJio5d5kaGgueQ4mV61JLNXuEeFwvLhDiPfeMh-Vd3pFvXy43zz13pNNbI_m8fOeDSbzksNlZf/pubhtml
 
 <h1 align="center"><i><b>𝐏𝐚𝐫𝐭𝐞 C 𝐝𝐞𝐥 𝐥𝐚𝐛𝐨𝐫𝐚𝐭𝐨𝐫𝐢𝐨</b></i></h1>
